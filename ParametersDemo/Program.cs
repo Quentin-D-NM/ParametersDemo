@@ -29,6 +29,7 @@ namespace ParametersDemo
             Console.WriteLine("Original value: {0}", testVal3);
             TestRef(ref testVal3); //out passes a variable by reference instead of pass by value
             Console.WriteLine("Returned value: {0}", testVal3);
+            //hello
         }
 
         public static void TestRef(ref int aValue)
