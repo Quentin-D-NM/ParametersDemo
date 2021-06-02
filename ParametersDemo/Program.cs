@@ -30,6 +30,7 @@ namespace ParametersDemo
             TestRef(ref testVal3); //out passes a variable by reference instead of pass by value
             Console.WriteLine("Returned value: {0}", testVal3);
             //hello
+            //hello
         }
 
         public static void TestRef(ref int aValue)
